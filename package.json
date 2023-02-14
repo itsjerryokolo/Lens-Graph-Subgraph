@@ -4,7 +4,7 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ Nazeeh21/Lens-Protocol-Matic",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ subgraph-substreams/go",
     "create-local": "graph create --node http://localhost:8020/ Nazeeh21/Lens-Protocol-Matic",
     "remove-local": "graph remove --node http://localhost:8020/ Nazeeh21/Lens-Protocol-Matic",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 Nazeeh21/Lens-Protocol-Matic"
